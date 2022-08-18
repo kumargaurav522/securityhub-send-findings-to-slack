@@ -27,11 +27,11 @@ variable "members" {
   description = "List of member AWS accounts as [{account_id: '9999', email: 'a@b.com'}, {...}] }"
 }
 
-variable "invite" {
-  type        = bool
-  default     = true
-  description = "Invite member accounts? (Use 'false' when this account is the delegated admin by master account)"
-}
+# variable "invite" {
+#   type        = bool
+#   default     = true
+#   description = "Invite member accounts? (Use 'false' when this account is the delegated admin by master account)"
+# }
 
 variable "alarm_slack_endpoint" {
   type        = string
